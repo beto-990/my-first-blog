@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mysite2", "mysite2.pyproj", "{196A3D49-A398-4B1A-A8F9-55ED7D5D2EFF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "blog", "blog\", "{50B506AF-05DB-4395-8D08-6341FB891254}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50084"
+		Debug.AspNetCompiler.PhysicalPath = "blog\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50084\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50084"
+		Release.AspNetCompiler.PhysicalPath = "blog\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50084\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50084"
+		SlnRelativePath = "blog\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196A3D49-A398-4B1A-A8F9-55ED7D5D2EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196A3D49-A398-4B1A-A8F9-55ED7D5D2EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196A3D49-A398-4B1A-A8F9-55ED7D5D2EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196A3D49-A398-4B1A-A8F9-55ED7D5D2EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B506AF-05DB-4395-8D08-6341FB891254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B506AF-05DB-4395-8D08-6341FB891254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B506AF-05DB-4395-8D08-6341FB891254}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B506AF-05DB-4395-8D08-6341FB891254}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45473ECD-8664-4688-AF86-0F0D882B3B25}
+	EndGlobalSection
+EndGlobal
